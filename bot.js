@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("517805619282182144");
+const mohamed= member.guild.channels.get("518581800725905423");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send("مشرف السيرفر Gamer's World"), 4000) 
